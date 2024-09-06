@@ -1,8 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './index.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import './index.css';
 import fontawesome from './fontawesome';
+import { createPinia } from 'pinia';
 
 const app = createApp(App);
-app.use(fontawesome)
-app.mount('#app')
+const pinia = createPinia();
+app.use(fontawesome);
+app.use(pinia);
+app.mount('#app');

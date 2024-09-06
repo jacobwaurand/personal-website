@@ -93,11 +93,14 @@ export default {
       "surface-700": "#323232", // #323232
       "surface-800": "#282828", // #282828
       "surface-900": "#202020", // #202020
+      // transparent 
+      "transparent": "rgba(0,0,0,0)"
     },
     fontFamily: {
       fantasy: ['fantasy'],
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      verdana: ['verdana']
     }
   },
   plugins: [],

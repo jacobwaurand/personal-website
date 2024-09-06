@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import PageHeader from '../components/PageHeader.vue';
 import PageBody from '../components/PageBody.vue';
+
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import PageBody from '../components/PageBody.vue';
     <div class="grow">
       <PageBody/>
     </div>
-</div>
+  </div>
 </template>
 
 <style scoped>

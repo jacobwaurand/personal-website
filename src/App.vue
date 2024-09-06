@@ -1,9 +1,21 @@
-<script setup lang="ts">
+<script lang="ts">
+import IntroPage from './pages/IntroPage.vue';
 import MainMenu from './pages/MainMenu.vue'
+import { defineComponent } from 'vue';
+import { store } from './store/store';
+import { mapState } from 'pinia';
+
+export default defineComponent({
+  components: { IntroPage, MainMenu },
+  computed: {
+    ...mapState(store, ['activePage'])
+  }
+})
 </script>
 
 <template>
-  <MainMenu/>
+  <IntroPage v-if="activePage === ''"/>
+  <MainMenu v-else/>
 </template>
 
 <style>
