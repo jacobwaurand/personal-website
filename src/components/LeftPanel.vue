@@ -5,7 +5,7 @@ import { store } from '../store/store';
 
 const tabs = [{ text: 'Resume', icon: 'book', isActive: false },
   { text: 'Projects', icon: 'diagram-project', isActive: false },
-  { text: 'Contact Card', icon: 'contact-card', isActive: false }];
+  { text: 'Contact Me', icon: 'contact-card', isActive: false }];
 
 export default defineComponent({
   created() {

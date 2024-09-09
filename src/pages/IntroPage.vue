@@ -28,9 +28,9 @@ export default defineComponent({
         <font-awesome-icon class="h-3/6 pb-1" icon="diagram-project"/>
         <span class="font-bold">Projects</span>
       </div>
-      <div class="h-full min-w-28 flex flex-col justify-center items-center hover:text-surface-50 cursor-pointer text-surface-900" @click="setPage('Contact')">
+      <div class="h-full min-w-28 flex flex-col justify-center items-center hover:text-surface-50 cursor-pointer text-surface-900" @click="setPage('Contact Me')">
         <font-awesome-icon class="h-3/6 pb-1" icon="contact-card"/>
-        <span class="font-bold">Contact Card</span>
+        <span class="font-bold">Contact Me</span>
       </div>
     </div>
   </div>
