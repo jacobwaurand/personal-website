@@ -19,7 +19,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="grow p-4">
+  <div class="grow p-4 flex flex-col items-center">
     <ResumePage v-if="activePage === 'Resume'"/>
     <ProjectsPage v-if="activePage === 'Projects'"/>
   </div>

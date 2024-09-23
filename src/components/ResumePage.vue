@@ -13,7 +13,7 @@ export default defineComponent({
 
 <template>
   <!-- Contact Info -->
-  <div class="bg-surface-900 p-4 rounded-md">
+  <div class="bg-surface-900 p-4 rounded-md w-2/3">
     <div class="text-2xl font-bold mb-2">Jacob Aurand</div>
     <div class="text-sm font-bold">
       <span class="text-surface-400 mr-2 hover:text-surface-100 cursor-pointer"><font-awesome-icon class="mr-2" icon="envelope"/>Jacobwaurand@gmail.com</span>
@@ -22,7 +22,7 @@ export default defineComponent({
     </div>
   </div>
   <!-- Work Experience -->
-  <div class="bg-surface-900 p-4 rounded-md mt-3">
+  <div class="bg-surface-900 p-4 rounded-md mt-3 w-2/3">
     <div class="text-2xl font-bold">Work Experience</div>
     <div class="font-bold text-surface-300 mt-3">Nasdaq - Evestment<span class="text-surface-400 ml-2 italic">(2022 - Current)</span></div>
     <ul class="list-disc ml-4 mt-2">
@@ -32,19 +32,19 @@ export default defineComponent({
     </ul>
     <div class="font-bold text-surface-300 mt-3">PolicyReporter<span class="text-surface-400 ml-2 italic">(2021 - 2022)</span></div>
     <ul class="list-disc ml-4 mt-2">
-      <li>Designed and deployed new features in a microservices-driven ecosystem, creating new features for clients.</li>
+      <li>Wrote 100+ selenium tests for our automation framework.</li>
       <li>Mentored 2 junior developers this year to educate them on best practices and share my knowledge of our platform.</li>
       <li>Identified 10+ performance bottlenecks and designed and built solutions to improve our platform speed by roughly 20%.</li>
     </ul>
     <div class="font-bold text-surface-300 mt-3">Canary Insights<span class="text-surface-400 ml-2 italic">(2020 - 2021)</span></div>
     <ul class="list-disc ml-4 mt-2">
-      <li>Designed and deployed new features in a microservices-driven ecosystem, creating new features for clients.</li>
+      <li>Worked in Azure DevOps to deploy our servers to the cloud.</li>
       <li>Mentored 2 junior developers this year to educate them on best practices and share my knowledge of our platform.</li>
       <li>Identified 10+ performance bottlenecks and designed and built solutions to improve our platform speed by roughly 20%.</li>
     </ul>
   </div>
   <!-- Education -->
-  <div class="bg-surface-900 p-4 rounded-md mt-3">
+  <div class="bg-surface-900 p-4 rounded-md mt-3 w-2/3">
     <div class="text-2xl font-bold mb-2">Education</div>
     <div class="font-bold text-surface-300">Georgia College & State University</div>
     <ul class="list-disc ml-4 mt-2">
